@@ -101,7 +101,7 @@ if upload_file is not None:
         ax.imshow(df_wc)
         st.pyplot(fig)
 
-        # most Common Words
+        # Most Common Words
 
         most_common_df = helper.mostCommonWord(selected_user, df)
         fig, ax = plt.subplots()
